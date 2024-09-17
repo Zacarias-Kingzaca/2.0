@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+
+    <style>
+
+        body{
+            background-color: rgb(119, 117, 115);
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+
+        header{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+        
+        nav {
+            background-color:  rgb(182, 158, 158);
+            padding: 3px;
+            box-shadow:  5px 4px 7px 1px rgba(0, 0, 0, 0.486);
+        }
+        main {
+            background-color:white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px 0px;
+            box-shadow:  4px 4px 9px 9px 0px rgba(49, 47, 47, 0.534);
+        }
+        article{
+            background-color: lightgray;
+            padding: 5px;
+        }
+        nav > a {
+            text-decoration: none;
+            color: rgb(34, 34, 37);
+            font-weight: bold;
+            margin-right: 3px;
+        }
+        nav > a:hover{
+            text-decoration: underline;
+
+        }
+         article > aside {
+            background-color: rgb(182, 158, 158);
+         }
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 1px;
+            margin: 10px;
+        }
+        footer > p {
+            margin: 4px;
+        }
+
+    </style>
+</head>
+<body>
+   <header>
+    <h1>Meu site</h1>
+    <nav>
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+        
+    </nav>
+   </header> 
+   <main>
+
+    <section id="assunto">
+        <p>Tudo sobre Zacarias King Zaca</p>
+    </section>
+    <section id="noticias">
+         <article>
+             <h2>Notícias sobre Angola</h2>
+             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia et blanditiis placeat, rerum praesentium vitae neque, distinctio in eligendi iure voluptatem, enim iusto officia vero reiciendis. Soluta consequuntur doloremque porro.</p>
+             <aside>
+             <p>Assunto escrito por Zacarias King Zaca</p>
+             </aside>
+         </article>
+         <article>
+ 
+         </article>
+    </section>
+   </main>
+   
+   <footer>
+    <p>Desenvolvido pelo Zacarias King Zaca</p>
+   </footer>
+
+
+</body>
+</html>
